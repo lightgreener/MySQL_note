@@ -1,0 +1,31 @@
+there is my notes for mySQL 
+
+mySQL is like managed database service
+SQL is more like a language
+Database is collections of data 
+
+
+1, Install mySQL
+	window10:
+	-click installation file	
+		-change Charactor Set utf8 (tick third box first)
+		-port: 3306
+
+2, Delete mySQL
+	window10
+	-click installation file, then press remove
+	-delete directory C:\ProgramData\MySQL
+	-delete directory C:\Program Files(86)\MySQL
+
+3, Make sure mySQL is running by checking services.msi
+
+4, login to mySQL from terminal
+	-command:  mysql -uroot -p
+
+5, Normal commands;
+	-show databases;  ( ; must have)
+	-use filename;  (which database)
+	-create database my_first_database ( new database)
+
+6, 	
+
