@@ -27,5 +27,39 @@ Database is collections of data
 	-use filename;  (which database)
 	-create database my_first_database ( new database)
 
-6, 	
+6, DQL: select ( means find )
+   DML: data in table
+   	insert   ( means add)
+	delete   ( means delete)
+	update   ( means modify)
+   DDL: the structure of table
+   	create   ( means new )
+	drop     ( means delete)
+	alter    ( means modify)
+   TCL: upload 
+   	commit   ( means upload)
+	rollback ( means pull back)
+   DCL: who is in control
+   	grant    ( authorize)
+	revoke   ( take away Auth)
+
+7, Have a look at all info at table
+	select * from table_name
+   Have a look at the structure of table
+   	desc table_name
+
+8, Check version of mySQL
+	select version();
+   		
+9, Check which database
+	select database();
+
+10, Alias in table
+	select column as 'new name' from table_name;   ( 'string' reckon )
+	select column, another from table_name;
+	select column, num*12 from table_name;   ( yes, can do math)
+
+11, Condition
+	select column from table_name where salary=1000;
+	select e_name, e_number from table_name where e_name='SMITH';
 
