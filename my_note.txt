@@ -62,4 +62,12 @@ Database is collections of data
 11, Condition
 	select column from table_name where salary=1000;
 	select e_name, e_number from table_name where e_name='SMITH';
+	select ename, sal from table_name where  column is/is not null;   # dont use '=', must use is or is not;
+	and is equenlante to &&
+	or id equvalante to ||
+	priority order: and is higher than or, but ( ) is more higher.
+	in( number1, number2, number3), means exactly match those three number,not from XX to XX,
+	between XX and XX is field.
+	column like '%XXX_XX' means % is any charactors, _ is a charactor.  
+
 
