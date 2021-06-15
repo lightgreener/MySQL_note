@@ -69,5 +69,13 @@ Database is collections of data
 	in( number1, number2, number3), means exactly match those three number,not from XX to XX,
 	between XX and XX is field.
 	column like '%XXX_XX' means % is any charactors, _ is a charactor.  
+12, function (single)
+	lower()
+	upper()
+	substr()
+	# first letter is upper case. rest are lower case
+	eg: select concat(upper(substr(ename,1,1)), substr(ename,2,length(ename)-1)) from student;
+	trim()
+
 
 
